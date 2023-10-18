@@ -1,12 +1,41 @@
+let whichSeason; //create variable for season type
+let numSeasons = 3; //set number of seasons for spring/summer, fall, and winter
+let changePeriod = 30*1000; //change period is set to every 30 seconds
+
+whichSeason = floor( millis() / changePeriod) % numSeaons; //change season every 30 seconds and reset at 3
+
 function setup() {
-  createCanvas(900, 900);
+  createCanvas(900, windowHeight);
+// objPos = [{}]
 }
 
 function draw() {
-  background (255); // white background
+  drawTrees (); //call Trees function
+  drawPersephone(); //call Persephone function
 
+  if (whichSeason == 0) { //if season is spring/summer
+    //draw flowers and background purple/pink
+    background(236, 174, 198);
+  else if (whichSeason == 1) {
+    //draw leaves and backround orange
+    background(24, 206, 143);
+  else {
+    //draw snowflakes and background blue
+    background(154, 199, 198);
+  }
 
-  // Persehpone Shapes
+  }
+
+  }
+
+}
+
+  // function to draw Persehpone
+  function drawPersephone () { 
+    push ();
+    translate(60, height/6);
+    scale(0.7, 0.7);
+
   noStroke();
   fill(222, 88, 204);
   circle(400, 450, 150);
@@ -28,11 +57,23 @@ function draw() {
   circle(425, 445, 5);
   fill(222, 11, 98);
   arc(400, 490, 40, 15, 0, PI);
- 
-  // Hades
 
-  // Trees
+  pop ();
+}
+ 
+  // function to draw Hades
+
+  // function draw Trees
+  function drawTrees () {
+  noStroke ();
+  fill(59, 41, 1);
+  rect(0, height/4, 150, height);
+  rect(750, height/4, 900, height);
   fill(55, 143, 9);
-  arc(0, 0, 100, 100);
+  circle(0, 0, width/1.5);
+  circle(width, 0, width/1.5);
 
 }
+
+
+

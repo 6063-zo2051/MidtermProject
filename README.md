@@ -41,3 +41,9 @@ I also thought about how I wanted to depict the season changes and figured I cou
 
 ### LOGIC
 My scene will be split into 3 different moments: spring and summer, fall, and winter. The events will be time-based rather than initiated by mouse actions. To change the flowers into leaves and then into snowflakes, I will likely need to make objects for the flowers, leaves, and snowflakes. This way, I can easily change between them in time intervals. 
+
+I ended up creating a function for each of the static drawings -- Persephone, Hades, and the Trees. This way, I could easily adjust them and call them if needed in the draw section. This came in handy when I changed my canvas/window size and then needed to agjust the placement of Persephone. The following pseudocode helped me to organize my thoughts.
+
+!(MidTerm1.jpg)
+!(MidTerm2.jpg)
+!(MidTerm3.jpg)
