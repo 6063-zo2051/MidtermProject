@@ -44,6 +44,6 @@ My scene will be split into 3 different moments: spring and summer, fall, and wi
 
 I ended up creating a function for each of the static drawings -- Persephone, Hades, and the Trees. This way, I could easily adjust them and call them if needed in the draw section. This came in handy when I changed my canvas/window size and then needed to agjust the placement of Persephone. The following pseudocode helped me to organize my thoughts.
 
-!(MidTerm1.jpg)
-!(MidTerm2.jpg)
-!(MidTerm3.jpg)
+![](MidTerm1.jpg)
+![](MidTerm2.jpg)
+![](MidTerm3.jpg)
