@@ -47,3 +47,10 @@ I ended up creating a function for each of the static drawings -- Persephone, Ha
 ![](MidTerm1.jpg)
 ![](MidTerm2.jpg)
 ![](MidTerm3.jpg)
+
+## Milestone 3
+
+This week I completed my sketch. I started by trying to get down the time element as I was struggling with that. I originally had the formula in my code that declared the time change interval to be every 30 seconds. I decided to just make the interval 3 seconds so that the change could be seen faster. I decided to make a function for each of the elements including the flowers, leaves, amd snowflakes. I also included a change in background but I wanted it to be more intricate than just adjusting the color, so I downloaded some images to change with the time intervals.
+
+### FINAL LOGIC
+Every 3 seconds the season changes in this scene from spring/summer, to fall, to winter. This happens with a change of the trees and the background. Also, every spring and summer, Hades character disappears to coincide with the Greek myth.
