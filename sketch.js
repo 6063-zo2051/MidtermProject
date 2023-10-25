@@ -10,6 +10,7 @@ function preload (){
   backGround1 = loadImage('springsummer.jpg');
   backGround2 = loadImage('fall.jpg');
   backGround3 = loadImage('winter.jpg');
+  wood = loadImage('wood-texture-vector.jpg');
 }
 
 
@@ -70,6 +71,7 @@ function drawFlower () {
  ellipse(x2 + 30, y2, 30, 15);
  ellipse(x2 + 15, y2 + 15, 15, 30);
  ellipse(x2 + 15, y2 - 15, 15, 30);
+ circle()
     }
   }
 }
@@ -178,9 +180,16 @@ function drawTrees () {
   fill(59, 41, 1);
   rect(0, height/4, 150, height);
   rect(750, height/4, 900, height);
+push();
+  scale(0.3, 5);
+  image(wood, 0, 0);
+  image(wood, 200 + windowWidth, 0);
+  pop();
   fill(55, 143, 9);
   circle(0, 0, width/1.5);
   circle(width, 0, width/1.5);
+
+ 
 }
 
 
